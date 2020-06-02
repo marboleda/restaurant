@@ -3,6 +3,16 @@
     font-family: papaya;
 }
 
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(images/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #restaurant-name {
     text-align: center;
     color: yellow;
@@ -16,12 +26,21 @@
     font-family: Arial;
 }
 
-body {
-    height: 100%;
-    margin: 0;
-    background-image: url(images/background.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+#navbar {
+    width: 90vh;
+    margin: 0 auto;
+}
+
+#navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: yellow;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    font-family: Arial;
 }
