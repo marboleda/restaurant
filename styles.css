@@ -1,0 +1,27 @@
+@font-face {
+    src: url(fonts/Papaya-Sunrise-D.otf);
+    font-family: papaya;
+}
+
+#restaurant-name {
+    text-align: center;
+    color: yellow;
+    font-family: papaya;
+    margin-bottom: 0px;
+}
+
+#headline {
+    text-align: center;
+    color: orange;
+    font-family: Arial;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(images/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
