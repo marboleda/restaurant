@@ -2,6 +2,7 @@ const initialPageLoad = () => {
     const title = document.createElement('h1');
     const headline = document.createElement('h2');
     const navbar = document.createElement('div');
+    const info = document.createElement('div');
     const content = document.getElementById('content');
 
     title.textContent = 'The Tropical Grill';
@@ -27,6 +28,7 @@ const initialPageLoad = () => {
     content.appendChild(title);
     content.appendChild(headline);
     content.appendChild(navbar);
+    content.appendChild(info);
 }
 
 export default initialPageLoad
