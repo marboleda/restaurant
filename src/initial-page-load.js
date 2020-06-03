@@ -27,6 +27,8 @@ const initialPageLoad = () => {
     navbar_list.appendChild(navbar_list_contact);
     navbar.appendChild(navbar_list);
 
+    info.setAttribute('id','info');
+
 
     content.appendChild(title);
     content.appendChild(headline);

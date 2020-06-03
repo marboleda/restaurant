@@ -6,6 +6,8 @@ const displayMenu = () => {
         menuItem.setAttribute('data-menu-item', i.toString());
         menu.appendChild(menuItem);
     }
+
+    document.getElementById('info').appendChild(menu);
 }
 
 export default displayMenu
