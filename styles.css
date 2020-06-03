@@ -44,3 +44,14 @@ li {
     cursor: pointer;
     font-family: Arial;
 }
+
+#info {
+    width: 75vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+#info > ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
