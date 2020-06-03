@@ -17,8 +17,11 @@ const initialPageLoad = () => {
     const navbar_list_about = document.createElement('li');
     const navbar_list_contact = document.createElement('li');
     navbar_list_menu.textContent = 'Menu';
+    navbar_list_menu.setAttribute('id','menu-button');
     navbar_list_about.textContent = 'About';
+    navbar_list_about.setAttribute('id','about-button');
     navbar_list_contact.textContent = 'Contact';
+    navbar_list_contact.setAttribute('id', 'contact-button')
     navbar_list.appendChild(navbar_list_menu);
     navbar_list.appendChild(navbar_list_about);
     navbar_list.appendChild(navbar_list_contact);
