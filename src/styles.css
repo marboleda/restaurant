@@ -1,12 +1,12 @@
 @font-face {
-    src: url(fonts/Papaya-Sunrise-D.otf);
+    src: url(assets/fonts/Papaya-Sunrise-D.otf);
     font-family: papaya;
 }
 
 body {
     height: 100%;
     margin: 0;
-    background-image: url(images/background.jpeg);
+    background-image: url(assets/images/background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,5 +53,17 @@ li {
 
 #info > ul {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+}
+
+li > img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
 }
