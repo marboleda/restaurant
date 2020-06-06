@@ -67,3 +67,8 @@ h3 {
     color: greenyellow;
     text-align: center;
 }
+
+p {
+    font-family: Arial;
+    color: yellow;
+}
