@@ -57,13 +57,13 @@ li {
 }
 
 li > img {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 65%;
     display: block;
     margin: 0 auto;
 }
 
 h3 {
-    color: whitesmoke;
+    color: greenyellow;
     text-align: center;
 }
