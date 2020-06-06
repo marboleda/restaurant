@@ -1,8 +1,8 @@
 const displayAbout = () => {
     const about = document.createElement('p');
 
-    about.textContent = `Come and enjoy your favorite tropical dishes at The Tropical Grill.
-    We use fresh ingredients and homemade recipes to create the best dining experience for you!
+    about.innerHTML = `Come and enjoy your favorite tropical dishes at The Tropical Grill.<br>
+    We use fresh ingredients and homemade recipes to create the best dining experience for you!<br>
     Order today!`;
 
     document.getElementById('info').appendChild(about);
