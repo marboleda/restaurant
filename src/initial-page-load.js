@@ -8,7 +8,7 @@ const initialPageLoad = () => {
     title.textContent = 'The Tropical Grill';
     title.setAttribute('id', 'restaurant-name')
 
-    headline.textContent = "Succulent Filipino Comfort Food";
+    headline.textContent = "Succulent Comfort Food from the Pacific";
     headline.setAttribute('id', 'headline');
 
     navbar.setAttribute('id','navbar');
