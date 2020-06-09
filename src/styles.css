@@ -68,6 +68,10 @@ h3 {
     text-align: center;
 }
 
+h2, h4 {
+    color: yellow;
+}
+
 p {
     font-family: Arial;
     color: yellow;
